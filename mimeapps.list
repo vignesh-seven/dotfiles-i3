@@ -1,0 +1,9 @@
+[Added Associations]
+image/jpeg=userapp-feh --scale-down-I7BC51.desktop;ranger.desktop;feh.desktop;
+image/png=userapp-feh --scale-down-Z2S741.desktop;
+
+[Default Applications]
+image/jpeg=userapp-feh --scale-down-I7BC51.desktop
+image/png=userapp-feh --scale-down-Z2S741.desktop
+
+[Removed Associations]

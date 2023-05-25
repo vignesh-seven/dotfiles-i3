@@ -1,0 +1,43 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+
+window:
+  # Window padding (changes require restart)
+  #
+  # Blank space added around the window in pixels. This padding is scaled
+  # by DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 10
+    y: 10
+    
+  dynamic_padding: true
+
+  opacity: 0.8
+
+# BEGIN ACE
+colors:
+  primary:
+    background: '#0b0d0a'
+    foreground: '#e4d7d7'
+  cursor:
+    text:       '#0b0d0a'
+    cursor:     '#e4d7d7'
+  normal:
+    black:      '#0b0d0a'
+    red:        '#B36F62'
+    green:      '#A5857A'
+    yellow:     '#C68977'
+    blue:       '#867E89'
+    magenta:    '#B0918D'
+    cyan:       '#D0A7A2'
+    white:      '#e4d7d7'
+  bright:
+    black:      '#9f9696'
+    red:        '#B36F62'
+    green:      '#A5857A'
+    yellow:     '#C68977'
+    blue:       '#867E89'
+    magenta:    '#B0918D'
+    cyan:       '#D0A7A2'
+    white:      '#e4d7d7'
+# END ACE

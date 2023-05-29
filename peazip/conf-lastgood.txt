@@ -26,7 +26,7 @@ default.txt
 0
 
 [Initial dir for file/archive browser]
-/
+/home/vin/Downloads/
 
 [default archiving format]
 18
@@ -84,8 +84,8 @@ default.txt
 
 [save history of recent archives]
 1
-
-
+/home/vin/Downloads/segoeuiemoji.zip
+/home/vin/Downloads/dotfiles.tar
 
 
 
@@ -114,16 +114,16 @@ default.txt
 0
 
 [left]
-77
+1280
 
 [top]
-64
+34
 
 [width]
-1024
+800
 
 [height]
-600
+1037
 
 [archive formats to show in favourite popup menu]
 1
@@ -215,7 +215,7 @@ Deflate
 1
 
 [last output path]
-
+/home/vin/
 
 [height of the navigation's splitter]
 220
@@ -242,7 +242,7 @@ PeaZip
 80
 160
 60
-100
+112
 0
 
 [extract to new folder]
@@ -315,7 +315,7 @@ PeaZip
 0
 
 [last successful extraction path]
-
+/home/vin/Downloads/
 
 [encrypt also filenames, if the feature is supported by the format]
 0
@@ -409,8 +409,8 @@ PeaZip
 0
 
 [save history of recent directories]
-
-
+/home/vin/Downloads/segoeuiemoji.zip
+/home/vin/Downloads/
 
 
 
@@ -505,16 +505,16 @@ PeaZip
 1
 
 [launcher left]
-92
+961
 
 [launcher top]
-92
+34
 
 [launcher width]
-640
+950
 
 [launcher height]
-320
+1037
 
 [automatically sync archives if previewed files are updated]
 1
@@ -675,7 +675,7 @@ PeaZip
 0
 0
 1
-100
+1
 
 [preferred checksum and hash algorithms]
 CRC32 CRC64 MD5 RIPEMD160 SHA1 BLAKE2S SHA256 SHA3_256

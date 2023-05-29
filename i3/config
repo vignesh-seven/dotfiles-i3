@@ -193,8 +193,8 @@ exec_always xrandr -s 1920x1080
 new_window pixel 2
 
 # set gaps
-gaps inner 3
-gaps outer 2
+gaps inner 6
+gaps outer 3
 
 smart_borders on
 

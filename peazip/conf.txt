@@ -26,7 +26,7 @@ default.txt
 0
 
 [Initial dir for file/archive browser]
-/home/vin/Downloads
+/home/vin/Downloads/
 
 [default archiving format]
 18
@@ -44,7 +44,7 @@ default.txt
 4
 
 [default PEA stream level control algorithm]
-0
+3
 
 [default integrity check algorithm for file split]
 13
@@ -84,8 +84,8 @@ default.txt
 
 [save history of recent archives]
 1
+/home/vin/Downloads/segoeuiemoji.zip
 /home/vin/Downloads/dotfiles.tar
-
 
 
 
@@ -114,16 +114,16 @@ default.txt
 0
 
 [left]
-960
+489
 
 [top]
-0
+47
 
 [width]
-956
+800
 
 [height]
-1041
+1037
 
 [archive formats to show in favourite popup menu]
 1
@@ -409,8 +409,8 @@ PeaZip
 0
 
 [save history of recent directories]
+/home/vin/Downloads/segoeuiemoji.zip
 /home/vin/Downloads/
-
 
 
 
@@ -428,7 +428,7 @@ PeaZip
 1
 
 [default deletion mode for delete after extraction / delete after archiving option: 0 recycle (Windows) 1 quick 2 zero 3 secure]
-1
+0
 
 [status of function branch in run group]
 0
@@ -505,16 +505,16 @@ PeaZip
 1
 
 [launcher left]
-960
+1438
 
 [launcher top]
-0
+32
 
 [launcher width]
-956
+480
 
 [launcher height]
-1041
+1037
 
 [automatically sync archives if previewed files are updated]
 1
@@ -675,7 +675,7 @@ PeaZip
 0
 0
 1
-112
+180
 
 [preferred checksum and hash algorithms]
 CRC32 CRC64 MD5 RIPEMD160 SHA1 BLAKE2S SHA256 SHA3_256

@@ -185,10 +185,15 @@ bindsym $mod+space exec --no-startup-id "rofi -show drun -modi"
 exec_always xrandr -s 1920x1080
 
 # hide i3 title bar
-default_border pixel
+# default_border pixel
+
+# hide window outline/border (both lines below do the same thing)
+# for_window [class="^.*"] border pixel 0
+# new_window none
+new_window pixel 2
 
 # set gaps
-gaps inner 2
+gaps inner 3
 gaps outer 2
 
 smart_borders on
@@ -202,14 +207,22 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # exec_always --no-startup-id polybar
 
 # nm-applet wifi icon in polybar
-exec --no-started-id nm-applet
+# exec --no-started-id nm-applet
 
 # set wallpaper
+exec_always feh --bg-fill ~/.config/wallpapers/selena_fhd.png
 exec_always wal -i ~/.config/wallpapers/selena_fhd.png
 # exec_always wal -i ~/.config/wallpapers/anime-city.jpg
-
+exec_always picom
 # set colors for alacritty terminal
 # exec_always .~/.config/alacritty/alacritty-color-export/script.sh
+
+# shortcuts for screenshot
+  # copy screenshot to clipboard
+bindsym $mod+Shift+s exec --no-startup-id "flameshot gui -c"
+  # normal mode
+bindsym Print exec --no-startup-id "flameshot gui"
+
 
 ############## PYWAL CONFIG  ###################
 # Set colors from Xresources
